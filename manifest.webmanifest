@@ -1,0 +1,10 @@
+{
+  "name": "Batoi Travels",
+  "short_name": "Batoi",
+  "description": "Book seats and vehicles for long-distance hill trips.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#1d4e89",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

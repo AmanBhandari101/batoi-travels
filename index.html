@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Batoi Travels</title>
+  <meta name="description" content="Book seats and vehicles for long-distance hill trips in Uttarakhand.">
+  <meta name="theme-color" content="#1d4e89">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css?v=2">
+</head>
+<body>
+  <div id="app" class="app">
+    <header class="topbar">
+      <a href="#/" class="brand" aria-label="Batoi Travels home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#1d4e89"/><path d="M3 24 L11 12 L15 18 L20 9 L29 24 Z" fill="#fff" opacity=".95"/><path d="M20 9 L23 14 L21 13.5 L19.5 15 L18 13 Z" fill="#cfe0f3"/><path d="M8 28 C13 22, 19 26, 25 20" stroke="#e07a1f" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>
+        <span>batoi<small class="hi">पहाड़ों का सफ़र</small></span>
+      </a>
+      <nav class="roles" aria-label="Switch app">
+        <a href="#/" data-role="travel">Travel</a>
+        <a href="#/drive" data-role="drive">Drive</a>
+        <a href="#/admin" data-role="admin">Admin</a>
+      </nav>
+    </header>
+    <main id="view"></main>
+    <nav class="bottomnav" id="bottomnav"></nav>
+  </div>
+
+  <script src="js/data.js?v=2"></script>
+  <script src="js/api.js?v=2"></script>
+  <script src="js/ui.js?v=2"></script>
+  <script src="js/traveller.js?v=2"></script>
+  <script src="js/driver.js?v=2"></script>
+  <script src="js/admin.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
+</body>
+</html>
