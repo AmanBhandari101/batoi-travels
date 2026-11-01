@@ -42,6 +42,10 @@ Open http://localhost:8895. On a phone, open the page and use "Add to Home scree
 - `js/traveller.js`, `js/driver.js`, `js/admin.js`: the three apps
 - `js/ui.js`: shared helpers (seat map, sheets, formatting); `js/app.js`: router
 
+## Licence
+
+[MIT](LICENSE).
+
 ## Not real yet
 
 - No server: data lives in this browser's localStorage. Driver and traveller "talk" only inside one browser.
